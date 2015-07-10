@@ -2,6 +2,12 @@ a {
     text-decoration: none;
 }
 
+h3 {
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
 .fluid-container {
     width:100%;
     background-color: gainsboro;
@@ -62,4 +68,13 @@ a {
     background-color: yellow;
     padding: 30px;
     float: right;
+}
+
+.icon1 {
+    width:100px;
+    height:100px;
+    border: 1px black solid;
+    background-color: yellow;
+    margin-bottom: 20px;
+    
 }
