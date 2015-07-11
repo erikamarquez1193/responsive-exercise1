@@ -1,3 +1,4 @@
+
 a {
     text-decoration: none;
 }
@@ -10,7 +11,7 @@ h3 {
 
 .fluid-container {
     width:100%;
-    background-color: gainsboro;
+    background-color: white;
 }
 
 .container {
@@ -24,6 +25,23 @@ h3 {
     background-color: white;
 }
 
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.leftrightmargin {
+    margin-left:70px;
+    margin-right: 70px;
+}
+
+.topmargin {
+    margin-top:70px;
+}
+
 /*----- Nav----*/
 
 .studio {
@@ -31,11 +49,15 @@ h3 {
     height: 50px;
     background-color: black;
     margin-left: 15px;
-    float:left;
+    float:left;   
+}
+
+.nav {
+    float: right;
     
 }
 
-.nav, .nav li {
+.nav li {
     list-style-type: none;
     float: right;
     margin-right: 15px;
@@ -49,32 +71,160 @@ h3 {
     color: black;
 }
 
+.mglass {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background-color: gainsboro;
+    float: right !important;
+    margin-right: 15px;   
+}
+
+.menu {
+    height: 40px;
+    width: 40px;
+    background-color: gainsboro;
+    float: right !important;
+    margin-right: 15px;
+    
+}
+
 /*----- Big Yellow Box----*/
 
 .yellowbox {
-    width: 43%;
+    width: 49%;
     height: 500px;
     background-color: yellow;
-    padding: 30px;
     float: left;
 }
 
-
-/*----- Right of Yellow Box ----*/
-
-.yellowbox2 {
-    width: 43%;
-    height: 500px;
+.icon1 {
+    width:70px;
+    height:70px;
+    border: 1px black solid;
     background-color: yellow;
-    padding: 30px;
+    margin: 70px 0px 40px 70px;  
+}
+
+.icon2 {
+    width:80px;
+    height:25px;
+    border: 1px black solid;
+    background-color: yellow;
+    margin: 40px 0px 70px 70px; 
+}
+
+/*----- Right/Left of Yellow Box ----*/
+
+.imagebox1 {
+    width: 49%;
     float: right;
 }
 
-.icon1 {
-    width:100px;
-    height:100px;
+.imagebox2 {
+    width: 49%;
+    float: left;
+}
+
+.toprow1 {
+    background-color: black;
+    width:49%;
+    height:245px;
+    float: left;
+}
+
+.toprow2 {
+    background-color: black;
+    width:49%;
+    height:245px;
+    float: right;
+}
+
+
+.bottomrow1 {
+    background-color: black;
+    width:49%;
+    height:245px;
+    float: left;
+    margin-top: 10px;
+}
+
+.bottomrow2 {
+    background-color: black;
+    width:49%;
+    height:245px;
+    float: right;
+    margin-top: 10px;
+}
+
+
+/*----- Big Grey Box ----*/
+
+.greybox {
+    width: 49%;
+    height: 500px;
+    background-color: gainsboro;
+    float: right;
+}
+
+.icon11 {
+    width:70px;
+    height:70px;
     border: 1px black solid;
-    background-color: yellow;
-    margin-bottom: 20px;
+    background-color: gainsboro;
+    margin: 70px 0px 40px 70px;  
+}
+
+.icon22 {
+    width:80px;
+    height:25px;
+    border: 1px black solid;
+    background-color: gainsboro;
+    margin: 40px 0px 70px 70px; 
+}
+
+/*----- Big Grey Box ----*/
+
+.studio2 {
+    width: 75px;
+    height: 30px;
+    background-color: black;
+    float:left;   
+}
+
+.smicon1 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background-color: gainsboro;
+    float: right;   
+}
+
+.smicon2 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background-color: gainsboro;
+    float: right;
+    margin-right: 15px;   
+}
+
+.buycontact {
+    float: right;
     
 }
+
+.buycontact li {
+    list-style-type: none;
+    float: right;
+    margin-right: 15px;
+    line-height: 25px;
+    font-family: sans-serif;
+    
+    }
+
+.buycontact li a {
+    line-height: 50px;
+    color: black;
+}
+
