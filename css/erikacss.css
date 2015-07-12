@@ -1,0 +1,302 @@
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight:100;
+    font-size: 1.6em;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-family: 'Roboto Slab', serif;
+    font-weight:100;
+    font-size: 1.2em;
+    margin-bottom: 5%;
+}     
+ 
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:100;
+    font-size: 15px;
+    line-height: 1.5em;
+}
+
+.fluid-container {
+    width:100%;
+    background-color: #f5f5f5;
+}
+
+.container {
+    text-decoration: none;
+    height:100%;
+    width: 80%;
+    margin: 0 auto;
+    /*padding: 15px 0px;*/
+}
+
+.white {
+    background-color: #f5f5f5;
+    padding: 15px 0px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.leftrightmargin {
+    margin-left:15%;
+    margin-right:15%;
+}
+
+
+.topmargin {
+    margin-top:70px;
+}
+
+/*----- Nav----*/
+
+.studio {
+    width: 100px;
+    height: 50px;
+    margin-left: 15px;
+    float:left;   
+}
+
+.nav {
+    float: right;
+    
+}
+
+.nav li {
+    list-style-type: none;
+    float: right;
+    margin-right: 20px;
+    line-height: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:700;
+    font-size:12px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    }
+
+.nav li a {
+    line-height: 50px;
+    color: black;
+}
+
+a:link {
+color: red;
+text-decoration: none;
+border-bottom: 2px solid #f5f5f5;
+}
+
+a:hover {
+border-bottom-color: rgb(244,237,72);
+}
+
+.mglass {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background-color: white;
+    background-image: url(/img/Magnifying_search_lenses_tool_16.png);
+    background-size:auto;
+    background-repeat:no-repeat;
+    background-position: center;
+    float: right !important;
+    margin-right: 15px;   
+}
+
+.menu {
+    height: 40px;
+    width: 40px;
+    background-image: url(/img/mobile-menu.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    float: right !important;
+    
+}
+
+/*----- Big Yellow Box----*/
+
+.yellowbox {
+    width: 49%;
+    height: 495px;
+    background-color:rgb(244,237,72);
+    float: left;
+    
+}
+
+.icon1 {
+    width:50px;
+    height:50px;
+    background-image: url(/img/chemistry21.png);
+    background-size: cover;
+    margin:10% 13%;
+}
+
+.icon2 {
+    width:80px;
+    height:25px;
+    margin:7% 15%;
+}
+
+/*----- Right/Left of Yellow Box ----*/
+
+.imagebox1 {
+    width: 49%;
+    float: right;
+}
+
+.imagebox2 {
+    width: 49%;
+    float: left;
+}
+
+.toprow1 {
+    background-color: black;
+    background-image: url(/img/books.jpg);
+    background-position: center;
+    background-size:cover;
+    width:48%;
+    height:240px;
+    float: left;
+}
+
+.toprow2 {
+    background-color: black;
+    background-image: url(/img/singlebook.jpg);
+    background-position: center;
+    background-size:cover;
+    width:48%;
+    height:240px;
+    float: right;
+}
+
+
+.bottomrow1 {
+    background-color: #e6e6e6;
+    width:48%;
+    height:15em;
+    float: left;
+    margin-top: 15px; 
+    margin-bottom: 15px;    
+}
+
+.bottomrow2 {
+    background-color: black;
+    background-image: url(/img/brownbook.jpg);
+    background-position: center;
+    background-size:cover;
+    width:48%;
+    height:15em;
+    float: right;
+    margin-top: 15px; 
+    margin-bottom: 15px; 
+}
+
+
+/*----- Big Grey Box ----*/
+
+.greybox {
+    width: 49%;
+    height: 495px;
+    background-color: gainsboro;
+    float: right;
+}
+
+.icon11 {
+    width:25px;
+    height:25px;
+    background-image: url(/img/lightbulb8.png);
+    background-size: cover;
+    margin:15% 15% 10%; 
+}
+
+.icon22 {
+    width:80px;
+    height:25px;
+    border: 1px black solid;
+    background-color: gainsboro;
+    margin: 40px 0px 70px 20px; 
+}
+
+/*----- Big Grey Box ----*/
+
+
+.studio2 {
+    width: 60px;
+    height: 30px;
+    background-image:url(/img/logo.png);
+    background-size:cover;
+    /*float:left;*/
+    opacity: 0.4;
+    display:inline-block;
+    vertical-align: bottom;
+}
+
+.smicon1 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    background-color: lightgray;
+    background-image: url(/img/twitter.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    line-height: 25px;
+    float: right;   
+}
+
+.smicon2 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    background-color: lightgray;
+    background-image: url(/img/facebook.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    float: right;
+    margin-right: 15px;
+    line-height: 25px;
+}
+
+.buycontact {
+    float: right;    
+}
+
+.buycontact li {
+    list-style-type: none;
+    float: right;
+    margin-right: 15px;
+    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:700;
+    font-size:12px;
+    
+    }
+
+.buycontact li a {
+    line-height: 50px;
+    color: gray;
+}
+
+.copyright {
+    color:gray;
+    font-size:12px;
+    margin-left:25px;
+    line-height:15%;
+    display: inline-block;
+
+}
+
+@media only screen and (min-width : 768px) { 
+    .show-for-small-screens {
+        display: none;
+    }
