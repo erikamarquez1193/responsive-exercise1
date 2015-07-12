@@ -4,25 +4,27 @@
     <title>Collaborative Website</title>
      <link rel="stylesheet" href="css/reset.css"/>
     <link rel="stylesheet" media="screen and (min-device-width: 992px)" href="css/erikacss.css"/>
-    
-</head>
+    <link rel="stylesheet" media="screen and (min-device-width: 320px) and (max-width: 768px)" href="css/mobile.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:100,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css'>
+    </head>
     
 <body class="fluid-container">
     
     <!---NAV-->
     <nav class="clearfix container white">
         
-        <div class="studio"></div>
+        <div class="studio"><img src="img/logo.png"/></div>
         <div class="menu"></div>
         <div class="mglass"></div>
         
         <div class="nav"> 
         <ul>
-            <li><a href="#">HOME PAGE</a></li>
-            <li><a href="#">PAGES</a></li>
-            <li><a href="#">BLOG</a></li>
-            <li><a href="#">SHORTCODES</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">Home Page</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Shortcodes</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
         </div>
         
@@ -36,7 +38,8 @@
             <div class="icon1"></div>
             <h3 class="leftrightmargin"> We are the Most Awarded Advertising Agency in the World</h3>
             <p class="leftrightmargin">Brownie soufflé apple pie carrot cake lollipop. Powder sweet roll jelly beans lemon drops. Fruitcake bonbon carrot cake I love croissant icing topping caramels gingerbread.</p>
-            <div class="icon2"></div>
+            <div class="icon2">
+            <img src="img/option-circles.png"/></div>
         </div>
     
     
@@ -46,7 +49,11 @@
             <div class="toprow1"></div>
             <div class="toprow2"></div>
         
-            <div class="bottomrow1"></div>
+            <div class="bottomrow1">
+            <div class="icon11"></div>
+            <h4 class="leftrightmargin">Responsive Website</h4>
+            <p class="leftrightmargin">Coconut is a popular addition.</p>
+            </div>
             <div class="bottomrow2"></div>
         </div>
     
@@ -55,39 +62,51 @@
     <!---Bottom section to the left of the grey box-->
     
     <section class="container clearfix">
+        
+        
+              <!---Grey Box-->
+         <div class="greybox">
+            <div class="icon1"></div>
+            <h3 class="leftrightmargin"> We are the Most Awarded Advertising Agency in the World</h3>
+            <p class="leftrightmargin">Brownie soufflé apple pie carrot cake lollipop. Powder sweet roll jelly beans lemon drops. Fruitcake bonbon carrot cake I love croissant icing topping caramels gingerbread.</p>
+            
+            <div class="icon2">
+             <img src="img/option-circles.png"/></div>
+        </div>
         <div class="imagebox2 clearfix">
             <div class="toprow1"></div>
             <div class="toprow2"></div>
         
-            <div class="bottomrow1"></div>
+            <div class="bottomrow1">
+                <div class="icon11"></div>
+            <h4 class="leftrightmargin">Creative UX &amp; UI Design</h4>
+            <p class="leftrightmargin">Coconut is a popular addition.</p>
+            </div>
             <div class="bottomrow2"></div>
         </div>
     
-        <!---Grey Box-->
-        
-        
-        <div class="greybox">
-            <div class="icon11"></div>
-            <h3 class="leftrightmargin"> We are the Most Awarded Advertising Agency in the World</h3>
-            <p class="leftrightmargin">Brownie soufflé apple pie carrot cake lollipop. Powder sweet roll jelly beans lemon drops. Fruitcake bonbon carrot cake I love croissant icing topping caramels gingerbread.</p>
-            <div class="icon22"></div>
-        </div>
+  
     </section>
     
-    <!---Footer-->
-    
+    <!---Footer for large screens-->
+    <div class="show-for-large-screens">
     <footer class="container clearfix">
-        <div class="studio2"></div>
+    <div class="studio2"></div>
+        <p class="copyright">&#169; 2015 Robocont</p>
         <div class="smicon1"></div>
         <div class="smicon2"></div>
         <ul class="buycontact">
-            <li><a href="#">HOME PAGE</a></li>
-            <li><a href="#">PAGES</a></li>
+            <li><a href="#">BUY NOW</a></li>
+            <li><a href="#">CONTACT</a></li>
         </ul>
-        
-    
-    </footer>
-    
+        </footer>
+    </div>
+       <!---Footer for small screens-->
+         <div class="show-for-small-screens container">
+    <img src="img/envelope.png" class="email-icon"/>
+    <h5>contact</h5></div>
 </body>    
 
 </html>
+
+       
